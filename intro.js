@@ -1,0 +1,23 @@
+//var a = 150;
+//var b = 250;
+//console.log(a+b)
+//console.log(__dirname)
+//console.log(__filename)
+//console.log(Math.sqrt(35))
+//console.log(parseInt("32451dhsj"))
+//console.log(process)
+//console.log(process.pid)
+//console.log(process.env.PORT)
+
+var os = require('os')
+//console.log(os.platform())
+//console.log(os.arch())
+//console.log(os.freemem())
+//console.log(os.constants)
+//console.log(os.cpus())
+//console.log(os.networkInterfaces())
+//console.log(os.totalmem())
+//console.log(os.version())
+//console.log(os.userInfo())
+//console.log(os.homedir())
+console.log(os.hostname())

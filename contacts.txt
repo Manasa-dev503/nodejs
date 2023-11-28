@@ -1,0 +1,1 @@
+[{"fullname":"manasa","mobilenumber":"1234"},{"fullname":"kalyani","mobilenumber":"4578"},{"fullname":"praveen","mobilenumber":"9490"},{"fullname":"manu","mobilenumber":"6756"}]

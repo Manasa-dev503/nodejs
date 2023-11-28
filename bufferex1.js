@@ -1,0 +1,27 @@
+//var buffer = new Buffer.alloc(10)
+//buffer.fill('manasa')
+//console.log(buffer)
+//console.log(buffer.toString())
+
+
+//var buffer = new Buffer.allocUnsafe(10)
+//buffer.fill('manasa')
+//var buffer1 = new Buffer.allocUnsafe(10)
+//buffer1.fill('manasa')
+//console.log(buffer.toString())
+//console.log(buffer.length)
+//console.log(buffer.equals(buffer1))
+//console.log(buffer.slice(0,4).toString())
+//console.log(Buffer.concat([buffer,buffer1]).toString())
+//console.log(Buffer.isBuffer(buffer))
+//console.log(Buffer.isBuffer(buffer1))
+//console.log(buffer.write("Hello"))
+//console.log(buffer.toString('utf-8'))
+
+
+var buf2 = new Buffer.allocUnsafe(10)
+buf2.fill("manasa bathina")
+console.log(buf2.toString())
+var buf3 = new Buffer.allocUnsafe(10)
+buf2.copy(buf3)
+console.log(buf3.toString())
